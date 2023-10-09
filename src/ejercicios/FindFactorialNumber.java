@@ -1,7 +1,5 @@
 package ejercicios;
-
 import java.util.Scanner;
-
 public class FindFactorialNumber {
     public static void main(String[] args) {
         System.out.println("Resolver Factorial");
@@ -12,8 +10,6 @@ public class FindFactorialNumber {
         Factorial factorial = new Factorial();
         System.out.println(factorial.resolverFactorial(numeroCalcular));
     }
-
-
     public static class Factorial {
         double resolverFactorial(int n){
             double contador = 1;
@@ -23,8 +19,4 @@ public class FindFactorialNumber {
             return contador;
         }
     }
-
-
-
-
 }
